@@ -1,0 +1,65 @@
+.container {
+	width: 900px;  
+  	margin: 0 auto;
+    border: none!important;
+  }
+  
+.heading {
+	text-align: center;  
+  	font-family: Bitter;
+  	font-weight: 700;
+  	font-size: 40px!important;
+  	padding-bottom: 50px;
+  } 
+  
+.accordion {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 10px 18px;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  border-top: 1px solid grey;
+  border-bottom: none;
+  outline: none;
+  transition: 0.4s;
+}
+  
+.accordion h3 {
+	padding-top: 15px;
+  }
+
+.accordion h3:after {
+  content: '\002B';
+  font-size: 30px;
+  color: #000;
+  float: right;
+  margin-left: 5px;
+}
+  
+.active, .accordion:hover {
+  background-color: #fff;
+  color: #000;
+}
+  
+.accordion:focus {
+	color: #000;
+  	background-color: #FFF;
+  }
+
+.active h3:after {
+  content: "\2715";
+  font-size: 20px;
+  color: #000;
+}
+
+.panel {
+  padding: 10px 18px 0 18px;
+  background-color: white;
+  color: #000;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
