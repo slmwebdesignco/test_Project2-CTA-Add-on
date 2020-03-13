@@ -1,2 +1,4 @@
-# Test_Project2
-Made a Javascript Accordion to be converted with shortcode to insert into Wordpress Gutenberg block to previously made test project
+# Test_Project2 - CTA Section ADD-ON
+This is the CTA Section add-on I created to add to the Test Project - Elemento
+
+link: http://splendid-elixir.flywheelsites.com/
